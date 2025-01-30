@@ -1,6 +1,6 @@
 # GM 2: Red Envelope Riddles
 
-Technologies: binary, Python, Python3, VirusTotal
+Technologies: binary, Python, Python3, VirusTotal, terminal, JavaScript injection, digital forensics
 
 ## 1. Pattern Recognition 
 <img width="809" alt="image" src="https://github.com/user-attachments/assets/ec721cb3-134c-4c18-a623-130809b88f33" />
@@ -38,38 +38,49 @@ Flag: CTF{http://ttgholidays.com/s.png}
 
 
 ## 5. Slithery
+<img width="905" alt="image" src="https://github.com/user-attachments/assets/4b04b577-94cf-4b5e-b7fd-caa11e0ebe54" />
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/38ec8f79-b8e1-4289-9df3-bcb725fafa89" />
 
-Method:
+Method: I again reverse engineered the python code to write a decryption function and entered the code to get the flag.
 
 Flag: CTF{SL1TH3RY_SN4K3}
 
 
 ## 6. Shrink
+<img width="898" alt="image" src="https://github.com/user-attachments/assets/cc49ad8b-0f3b-4d47-ad62-8443e16b26c3" />
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/10b96b51-3c5d-4933-8028-34fe580b4c9b" />
 
-Method:
+Method: I used the terminal "file" command to figure out the file type of the shrink file. After seeing that it was a tar file, I used tar and gzip commands to unzip the file to get the flag.
 
 Flag: CTF{EXPANDDDDDDDDDDDD}
 
 
 ## 7. The Slippery Snake
+<img width="927" alt="image" src="https://github.com/user-attachments/assets/d10c82f6-c0d3-4bc5-9ab4-42da510c527f" />
+<img width="638" alt="image" src="https://github.com/user-attachments/assets/9ff7dcda-d6e9-4016-a4f4-f0b2f144d159" />
+<img width="1472" alt="image" src="https://github.com/user-attachments/assets/36abe95e-8028-404e-b647-5d50e61666da" />
 
-Method:
+Method: I investigated the application logs to see that the vulnerability invovled a YAML desearialization error. I searched Miitre's CVE list for YAML deserialization CVEs to find the correct CVE.
 
 Flag: CTF{CVE-2022-1471}
 
 
 ## 8. Lunar Light
+<img width="906" alt="image" src="https://github.com/user-attachments/assets/b0e7e388-8a33-4d26-ac2f-eb4d65aca376" />
+<img width="582" alt="image" src="https://github.com/user-attachments/assets/a3c9acde-8969-4d4f-a008-960210ff6b8b" />
 
-Method:
+Method: I opened the image in an image editor then manipulated the exposure and other settings to see the flag.
 
 Flag: CTF{M00NLIT_R3V3AL}
 
 
 ## 9. Paths to Prosperity
+<img width="463" alt="image" src="https://github.com/user-attachments/assets/836b7a1d-e43d-424e-8be4-e48c3df5b9ae" />
+<img width="1292" alt="image" src="https://github.com/user-attachments/assets/37175295-04a6-4a49-99e1-efe8873f7c90" />
 
-Method:
+Method: Using the developer tools I was able to see hidden directories in the sources for the webpage to find the page containing the flag.  then used JavaScript injection to obtain the flag.
 
-Flag:
+Flag: CTF{traversing_new_paths}
 
 
 ## 10. Python's Passwords
