@@ -88,7 +88,7 @@ Flag: CTF{traversing_new_paths}
 
 Method:
 
-Flag:
+Flag: CTF{N3W_YEAR_STILL_P4SSW0RDS}
 
 
 ## 11. Snake
@@ -96,4 +96,4 @@ Flag:
 
 Method:
 
-Flag:
+Flag: CTF{Y0u_b34T_My_Sl1th3r_G4m3!}
