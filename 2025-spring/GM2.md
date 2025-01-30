@@ -85,8 +85,10 @@ Flag: CTF{traversing_new_paths}
 
 ## 10. Python's Passwords
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/1f57774d-1325-42bc-999b-0c1bb5d937c6" />
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/c6508f28-5705-42e5-bb21-fbbd160caea8" />
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/a2c0ee6e-0644-47c8-babd-14a18ceb8748" />
 
-Method:
+Method: By reading the Python code we can see that the "admin123" username will trigger a check that does not give you the flag. Instead, we need to compute the UUID5 using the leet variable and "admin123" to get the correct URL.
 
 Flag: CTF{N3W_YEAR_STILL_P4SSW0RDS}
 
@@ -94,6 +96,6 @@ Flag: CTF{N3W_YEAR_STILL_P4SSW0RDS}
 ## 11. Snake
 <img width="495" alt="image" src="https://github.com/user-attachments/assets/45a8e8c0-2aef-4aef-b179-ca24c7e968fd" />
 
-Method:
+Method: I used the scanmem linux command line tool to pause the game then changedt he value of the game point score to 16525. After continuing, the flag is displayed.
 
 Flag: CTF{Y0u_b34T_My_Sl1th3r_G4m3!}
