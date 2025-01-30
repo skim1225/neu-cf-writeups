@@ -1,6 +1,6 @@
 # GM 2: Red Envelope Riddles
 
-Technologies: binary, Python, Python3, VirusTotal, terminal, JavaScript injection, digital forensics
+Technologies: binary, Python, Python3, VirusTotal, terminal, JavaScript injection, digital forensics, scanmem
 
 ## 1. Pattern Recognition 
 <img width="809" alt="image" src="https://github.com/user-attachments/assets/ec721cb3-134c-4c18-a623-130809b88f33" />
@@ -84,6 +84,7 @@ Flag: CTF{traversing_new_paths}
 
 
 ## 10. Python's Passwords
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/1f57774d-1325-42bc-999b-0c1bb5d937c6" />
 
 Method:
 
@@ -91,3 +92,8 @@ Flag:
 
 
 ## 11. Snake
+<img width="495" alt="image" src="https://github.com/user-attachments/assets/45a8e8c0-2aef-4aef-b179-ca24c7e968fd" />
+
+Method:
+
+Flag:
